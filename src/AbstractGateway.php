@@ -17,14 +17,7 @@ abstract class AbstractGateway extends OmnipayAbstractGateway implements Constan
     {
         return [
             'vendor' => null,
-            'testMode' => false,
-            'referrerId' => null,
-            'language' => null,
-            'useOldBasketFormat' => false,
-            'exitOnResponse' => false,
-            'apply3DSecure' => null,
-            'useAuthenticate' => null,
-            'accountType' => null,
+            'encryptionKey' => null
         ];
     }
 }
